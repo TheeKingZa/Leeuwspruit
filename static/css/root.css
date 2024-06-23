@@ -1,0 +1,56 @@
+/*Fonts*/
+/* Yellowtail */
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@100..900&family=Playwrite+NL:wght@100..400&family=Podkova:wght@400..800&family=Tiny5&family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@100..900&family=Great+Vibes&family=Playwrite+NL:wght@100..400&family=Podkova:wght@400..800&family=Tiny5&family=Yellowtail&display=swap');
+/*
+ * Reset the Default Browser set up
+ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+:root {
+    --color-main: navy;
+    --color-primary: white;
+    --color-secondary: gold;
+}
+
+body {
+    background-color: var(--color-main);
+    color: var(--color-primary);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    max-width: 100%;
+    min-height: auto;
+}
+
+a {
+    padding: 15px;
+    color: var(--color-secondary)
+}
+
+a:hover {
+    border-radius: 25px;
+    box-shadow: 0 0 20px var(--color-secondary);
+
+}
+
+
+
+
+.grid-imgs {
+    padding: 10px;
+    gap: 2rem;
+    margin-bottom: 50vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}

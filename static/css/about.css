@@ -1,0 +1,30 @@
+.grid-imgs {
+    gap: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.team {
+    padding: 15px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+
+}
+
+.team-img {
+    padding: 10px;
+
+}
+
+
+.group1 {
+    gap: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
