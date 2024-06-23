@@ -40,8 +40,9 @@ a {
 }
 
 a:hover {
+    border-radius: 25px;
    border: 1px solid var(--color-secondary);
-    box-shadow: 0 0 10px var(--color-secondary);
+    box-shadow: 0 0 20px var(--color-secondary);
 
 }
 
