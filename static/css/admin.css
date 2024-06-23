@@ -2,6 +2,20 @@
     font-size: 150%;
     padding: 15px;
     display: flex;
+    justify-content: center;
     align-items: center;
 
+}
+
+
+.card1 {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-body {
+    background-image: url('./static/images/Logos/logo_tall.PNG');
 }

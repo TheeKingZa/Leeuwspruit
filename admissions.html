@@ -11,9 +11,12 @@
     <link rel="stylesheet" href="./static/css/admin.css">
     <title>Administration</title>
 </head>
-<body>
+<body class="bg-body">
     <!-- Navigation Panel -->
-    <nav>
+     <!-- Toggle Nav -->
+     <button id="nav-toggle" class="nav-toggle">Menu</button>
+     
+     <nav>
         <a href="./index.html"><div>Home</div></a>
         <div>Administration</div>
         <a href="./academics.html"><div>Academics</div></a>
@@ -33,11 +36,14 @@
         <!-- Section -->
         <section>
             <div class="grid-imgs">
+                <div class="card1">
             <h1> Registrations NOW OPEN!</h1>
             <img src="./static/images/admin/nowOpen_for_2025.jpg" alt="">
-
+            </div>
+            <div class="card1">
             <h1>NEW SGB MEMBERS</h1>
             <img src="./static/images/admin/SGBs.jpg" alt="">
+            </div>
             </div>
         </section>
     </main>
@@ -62,5 +68,6 @@
         Leeuwspruit Primary School &copy 2024
     </footer>
     
+    <script src="./static/js/navBar.js"></script>
 </body>
 </html>
