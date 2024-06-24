@@ -13,11 +13,19 @@
 }
 
 
-.intro-img{
+.intro-img img{
     max-width: 450px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: none;
+}
+
+
+@media (min-width: 500px) {
+    .intro-img img {
+        display: block;
+        box-shadow: 0 0 20px;
+        border-radius: 20px;
+    }
+    
 }
 
 .intro div {
