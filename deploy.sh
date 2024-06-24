@@ -1,6 +1,8 @@
 #!/bin/bash
 
 
+set -e
+
 # git add
 git add . && git commit -m "v1.0.2" && git push origin master
 
