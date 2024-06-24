@@ -46,7 +46,7 @@ nav a {
     right: 10px;
     background-color: var(--color-main);
     color: var(--color-secondary);
-    padding: 10px;
+    padding: 1px;
     cursor: pointer;
     color: black;
     font-weight: bold;
@@ -60,9 +60,23 @@ nav a {
     }
     
     nav.show {
+        z-index: 998;
         background-color: var(--color-main);
         position: sticky;
         display: block;
+    }
+
+    nav div {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    header {
+        z-index: 997;
+        top: 0;
+        position: sticky;
     }
     
 }
