@@ -6,6 +6,22 @@ nav {
     justify-content: space-around;
 }
 
+
+.img-changelog {
+    width: 150px;
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+    animation: aniLogo 20s infinite alternate;
+}
+
+@keyframes aniLogo {
+
+    0% {background-image: url('../images/Logos/logo_white.png');}
+    50% {background-image: url('../images/Logos/logo.png');}
+    100% {background-image: url('../images/Logos/logo_black.png');}
+}
+
 .changelog-intro p {
     display: flex;
     justify-content: center;
