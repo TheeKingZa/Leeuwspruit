@@ -39,15 +39,18 @@ nav a {
 }
 
 .nav-toggle {
+    z-index: 999;
     display: none;
-    position: sticky;
+    position: fixed;
     top: 0px;
     right: 0px;
     background-color: var(--color-main);
     color: var(--color-secondary);
     padding: 10px;
-    border:none;
     cursor: pointer;
+    color: black;
+    font-weight: bold;
+    background-color: var(--color-secondary);
 }
 
 /* Show the toggle */
