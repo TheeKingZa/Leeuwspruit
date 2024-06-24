@@ -28,6 +28,17 @@
     
 }
 
+
+.field-imgs img {
+    padding: 5px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px var(--color-secondary);
+    display: flex;
+
+}
+
+.field-imgs div {
+}
 .intro div {
     gap: 1rem;
     display: flex;
