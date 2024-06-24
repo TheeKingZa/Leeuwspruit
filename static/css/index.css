@@ -76,7 +76,7 @@ section {
 
 .banner-intro p {
     z-index: 999;
-    top: 0;
+    top: 20%;
     position: sticky;
 }
 

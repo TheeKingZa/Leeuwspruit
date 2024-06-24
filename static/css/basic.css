@@ -51,6 +51,7 @@ nav a {
     color: black;
     font-weight: bold;
     background-color: var(--color-secondary);
+    padding: 5px;
 }
 
 /* Show the toggle */
