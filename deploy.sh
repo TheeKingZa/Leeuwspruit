@@ -2,7 +2,7 @@
 
 
 # git add
-git add . && git commit -m "v1.0.1" && git push origin master
+git add . && git commit -m "v1.0.2" && git push origin master
 
 # Ensure you are in the main branch
 git checkout master  # or 'main' if your branch is named 'main'
