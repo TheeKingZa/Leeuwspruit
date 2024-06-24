@@ -16,6 +16,15 @@
     align-items: center;
 }
 
+.card1 h1 {
+    border-radius: 25px;
+    background-color: var(--color-main);
+}
+
 .bg-body {
-    background-image: url('./static/images/Logos/logo_tall.PNG');
+    background-image: url('../images/Logos/logo_white.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: space;
+    object-fit: contain;
 }

@@ -1,44 +1,42 @@
 .intro {
-    gap: 1rem;
+    gap: 2rem;
     padding: 15px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: 1fr 2fr;
     box-shadow: 0 0 10px ;
     border-radius: 25px;
+    align-items: center;
+}
+
+.intro p {
+    padding: 5px;
 }
 
 
 .intro-img{
-    width: 100%;
+    max-width: 450px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.intro div {
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .intro-paragraph {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-
-}
-
-aside {
-    gap: 2rem;
+    min-width: 200px;
+    height: 350px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
 
-aside h1 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
-    font-size: 40pt;
-    font-weight: bold;
 }
 
 
