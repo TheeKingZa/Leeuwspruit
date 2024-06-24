@@ -15,20 +15,27 @@
 # The project structure:
 ```
 .
-    ├── index.html
-    ├── admissions.html
-    ├── academics.html
     ├── about.html
+    ├── academics.html
+    ├── admissions.html
+    ├── changelog.html
+    ├── deploy.sh
+    ├── index.html
     ├── static
     │   ├── css
-    │   │   ├── root.css
-    │   │   ├── index.css
+    │   │   ├── about.css
+    │   │   ├── academics.css
+    │   │   ├── admin.css
     │   │   ├── basic.css
+    │   │   ├── changelog.css
+    │   │   ├── index.css
+    │   │   └── root.css
     │   ├── images
     │   │   ├── Logos
-    │   │   │   └── logo.jpg
-    │   │   ├── events
-    │   │   │   └── thanks.jpg
+    │   │   │       ├── logo.jpg
+    │   │   │       └── etc..
+    │   │   └── events
+    │   │          └── thanks.jpg
     │   ├── js
     │       └── navBar.js
 
