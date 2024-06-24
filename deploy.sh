@@ -4,7 +4,7 @@
 set -e
 
 # git add
-git add . && git commit -m "v1.0.3_A few edits for web " && git push origin master
+git add . && git commit -m "v1.0.3_grid fix for index " && git push origin master
 
 # Ensure you are in the main branch
 git checkout master  # or 'main' if your branch is named 'main'

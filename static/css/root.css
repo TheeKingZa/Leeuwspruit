@@ -2,6 +2,7 @@
 /* Yellowtail */
 @import url('https://fonts.googleapis.com/css2?family=Gluten:wght@100..900&family=Playwrite+NL:wght@100..400&family=Podkova:wght@400..800&family=Tiny5&family=Yellowtail&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gluten:wght@100..900&family=Great+Vibes&family=Playwrite+NL:wght@100..400&family=Podkova:wght@400..800&family=Tiny5&family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tiny5&display=swap');
 /*
  * Reset the Default Browser set up
  */
@@ -44,6 +45,14 @@ a:hover {
    border: 1px solid var(--color-secondary);
     box-shadow: 0 0 20px var(--color-secondary);
 
+}
+
+.changelog-a {
+    border: none;
+}
+
+.changelog-a:hover {
+    border: none;
 }
 
 
