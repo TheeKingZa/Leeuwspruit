@@ -42,7 +42,7 @@ nav a {
     z-index: 999;
     display: none;
     position: fixed;
-    bottom: 20px;
+    top: 1%;
     right: 10px;
     background-color: var(--color-main);
     color: var(--color-secondary);
