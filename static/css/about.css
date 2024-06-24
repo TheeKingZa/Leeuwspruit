@@ -28,3 +28,12 @@
     justify-content: center;
     padding: 15px;
 }
+
+
+.map-facebook {
+    gap: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
