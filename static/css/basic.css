@@ -42,8 +42,8 @@ nav a {
     z-index: 999;
     display: none;
     position: fixed;
-    top: 0px;
-    right: 0px;
+    bottom: 20px;
+    right: 10px;
     background-color: var(--color-main);
     color: var(--color-secondary);
     padding: 10px;

@@ -79,7 +79,6 @@ section {
     z-index: 999;
     top: 0;
     position: sticky;
-    align-self:self-end;
 }
 
 /*
